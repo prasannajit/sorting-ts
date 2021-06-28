@@ -1,0 +1,28 @@
+{
+  "name": "sorting-ts",
+  "version": "1.0.0",
+  "description": "sorting with typescript",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build",
+    "start": "concurrently npm:start:*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prasannajit/sorting-ts.git"
+  },
+  "author": "prasannajit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prasannajit/sorting-ts/issues"
+  },
+  "homepage": "https://github.com/prasannajit/sorting-ts#readme",
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {}
+}
